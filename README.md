@@ -7,10 +7,10 @@
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. 
     <br/>
     <strong>Site URL / Demo » </strong> 
-    <a href="https://MayankKilhor.github.io/home">MayankKilhor.github.io/home</a>
+    <a href="https://mayankkilhor.github.io/home">mayankkilhor.github.io/home</a>
     <br />
     <br />
-    <a href="https://MayankKilhor.github.io">About Me</a>
+    <a href="https://mayankkilhor.github.io">About Me</a>
   </p>
 </p>
 
@@ -68,7 +68,7 @@
 
 # About the project
 
-[![Site preview](/public/image.png)](https://MayankKilhor.github.io/home)
+[![Site preview](/public/image.png)](https://mayankkilhor.github.io/home)
 
 
 <!-- ## Technology stack 🛠️

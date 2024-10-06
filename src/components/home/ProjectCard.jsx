@@ -21,6 +21,8 @@ const ProjectCard = ({ value }) => {
           <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
           <hr />
+          {/* {}
+          <hr /> */}
           {languages_url ? (
             <Language languages_url={languages_url} repo_url={svn_url} />
           ) : (

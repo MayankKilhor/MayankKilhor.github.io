@@ -24,13 +24,13 @@ const mainBody = {
       url: "https://www.hackerrank.com/mayankkilhor",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/mayank.kilhor.7",
+      image: "fa-instagram",
+      url: "https://www.instagram.com/perks_of_being_mayank/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/who_is_mk_/",
-    },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.twitter.com/who_is_mk_/",
+    // },
   ],
 };
 
@@ -54,8 +54,8 @@ const about = {
   imageLink: require("../editable-stuff/me.jpg"),
   imageSize: 375,
   message:
-    "My name is Mayank Kilhor. I’m a graduate of 2022 from Vellore Institute of Technology with a degree in Computer Science Engineering with specialization in Information Security. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. I have proven ability to collaborate with cross-functional teams, solve complex problems,and deliver high-quality software solutions.",
-  resume: "https://drive.google.com/file/d/1-jTcF-ha7kcE4QGcFzvB_d8MtG3zJ4Gk/view?usp=sharing",
+    "My name is Mayank Kilhor, and I am an experienced software developer with a strong passion for giving back to the community. I thrive on collaborating with cross-functional teams to tackle complex challenges and deliver innovative, high-quality software solutions. With a keen interest in information security, I am dedicated to building secure and reliable applications that protect user data and enhance overall user experience. I believe that technology can be a powerful force for good, and I aim to leverage my skills to contribute to projects that make a meaningful impact.",
+  resume: "https://drive.google.com/file/d/16yymIHdhZEsxCucMJQoQs5IclVONgA_A/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "MayankKilhor", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["InvPOS","PSAS","Indian-Budget-2020","Book-Recom"],
+  specificRepos: ["InvPOS","PSAS","Indian-Budget-2020","Book-Recom","Predictive-Maintenance-Of-Airlines","InventoryManagement"],
 };
 
 // Leadership SECTION
@@ -100,24 +100,28 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Java", value: 90 },
-    { name: "Debugging", value: 75 },
+    { name: "Java", value: 95 },
     { name: "Data Structures", value: 90 },
-    { name: "JavaScript", value: 60 },
-    { name: "Python", value: 75 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 85 },
+    { name: "AWS", value: 75 },
+    { name: "REST APIs", value: 95 },
+    { name: "Python", value: 70 },
+    { name: "Spring Framework", value: 90 },
+    { name: "Debugging", value: 85 },
     { name: "DevSecOps", value: 55 },
+    { name: "Git", value: 80 },
+    { name: "PostgreSQL & MongoDB", value: 85 },
   ],
   softSkills: [
     { name: "Problem Solving", value: 90 },
+    { name: "Database Management System", value: 85 },
+    { name: "Agile Methodoligies", value: 75 },
+    { name: "Version Control", value: 90 },
+    { name: "Communication", value: 85 },
     { name: "OOPS", value: 85 },
     { name: "Threat & Vulnerability Testing", value: 75 },
     { name: "Collaboration", value: 90 },
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Database Management System", value: 75 },
-    { name: "Data Mining", value: 70 },
-    { name: "Communication", value: 85 },
+    { name: "Adapitiblity", value: 90 },
+    { name: "Mentoring", value: 70 },
   ],
 };
 
@@ -135,23 +139,31 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Software Development Engineer ',// Here Add Company Name
+      companyname:'Dynasas',
+      url:'',
+      companylogo:'',
+      date: 'Oct 2023 – Present',
+      desc: 'Driven backend engineer specializing in building robust APIs and backend solutions with Spring Boot and AWS (Lambda, API Gateway, EC2, S3). I excel in developing RESTful APIs and optimizing database performance in MySQL, PostgreSQL, and NoSQL. I implement strong security measures, including Spring Security for authentication, and focus on enhancing application responsiveness. As a collaborative team player, I effectively work with frontend developers and stakeholders to deliver cohesive applications.',
+    },
+    {
       role: 'Software Development Engineer - 1 ',// Here Add Company Name
       companyname:'[24]7.ai',
       url:'https://www.linkedin.com/company/24-7-ai/',
       companylogo:'',
-      date: 'Jan 2022 – Nov 2022',
+      date: 'Jan 2022 – Sept 2023',
       desc: 'Developed and deployed state-of-the-art security testing automation tools into CI/CD pipelines, resulting in a significant       reduction in time and effort required for security testing.Conducted comprehensive risk assessments and proactively monitored client organization systems for vulnerabilities, ensuring maximum protection against cyber threats.Leveraged cutting-edge technology and tools to analyze and solve complex client problems, delivering efficient and effective solutions.',
     },
     {
-      role: 'Software Developer Intern',// Here Add Company Name
+      role: 'Software Developer Intern ',// Here Add Company Name
       companyname:'IoTAGI',
       url:'https://www.linkedin.com/company/iotagi/',
       companylogo: '',
       date: 'Jul 2021 – Aug 2021',
-      desc: 'Spearheaded the development of a high-quality website using ReactJs and other frameworks, resulting in a seamless user experience and increased customer engagement. Coordinated with cross-functional teams to streamline the development process and optimize the website performance. Troubleshot and resolved any issues that arose during development, implementing innovative solutions to revitalize the project and ensure timely delivery. ',
+      desc: 'Spearheaded the development of a high-quality website using ReactJS and other frameworks, resulting in a seamless user experience and increased customer engagement. As a backend developer, I designed and implemented robust APIs to support the frontend, ensuring efficient data flow and performance. I coordinated with cross-functional teams to streamline the development process and optimize website performance. Additionally, I troubleshot and resolved issues during development, implementing innovative solutions to revitalize the project and ensure timely delivery.',
     },
     {
-      role: 'Software Engineer Intern',// Here Add Company Name
+      role: 'Software Engineer Intern ',// Here Add Company Name
       companyname:'SmartInternz',
       url:'https://www.linkedin.com/company/smartinternz/',
       companylogo:'',
@@ -159,12 +171,12 @@ const experiences = {
       desc: 'Completed SmartInternz Artificial Intelligence externship program by IBM, gaining practical skills and theoretical knowledge in the field. Successfully applied the skills and knowledge gained to real-world projects and scenarios.Grateful for the opportunity to work with the Smartbridge team and SmartInternz, and for the positive experience and feedback received. ',
     },
     {
-      role: 'Web Developer Intern',
+      role: 'Web Developer Intern ',
       companyname:'House of Babas',
       url:'https://www.linkedin.com/company/houseofbabas/',
       companylogo: '',
       date: 'Nov 2020 – Mar 2021',
-      desc: ' Redesigned and developed an online shopping website using ReactJs and other frameworks, resulting in a 30% increase in sales revenue due to the improved user experience and faster website loading speed. Enhanced the overall user experience, resulting in increased customer satisfaction and retention. Utilized technical expertise to optimize website performance and ensure seamless functionality, improving the website usability and functionality. ',
+      desc: 'I redesigned and developed an online shopping website using ReactJS and Spring Boot, resulting in a 30% increase in sales revenue due to improved user experience and faster loading speeds. This overhaul enhanced overall user satisfaction and retention. I utilized my technical expertise to optimize website performance, ensuring seamless functionality and improved usability. Additionally, I implemented robust backend APIs with Spring Boot to support frontend operations and further enhance overall performance.',
     },
   ]
 }
